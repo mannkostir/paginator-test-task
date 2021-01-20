@@ -1,0 +1,107 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  background: linear-gradient(
+    107.56deg,
+    #121770 0%,
+    rgba(30, 38, 189, 0.7) 100%
+  );
+}
+body > * {
+  box-sizing: border-box;
+}
+button:checked {
+  background: red;
+}
+.app {
+  padding: 1em;
+  max-width: 1600px;
+  margin: 0 auto;
+  min-height: 100vh;
+  text-align: center;
+}
+.paginator {
+  padding: 1em;
+  position: relative;
+  height: 50px;
+  max-width: 50%;
+  margin: 0 auto;
+}
+.paginator__sections {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 5px;
+  width: 100%;
+  margin: 0 auto;
+}
+.paginator__list {
+  position: relative;
+  display: flex;
+  gap: 0.5em;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+  scroll-margin: 10px;
+  overflow: hidden;
+}
+.paginator__items-container {
+  position: absolute;
+  display: flex;
+  left: 0;
+  right: 0;
+  width: 90%;
+  margin: 0 auto;
+  gap: 10px;
+  bottom: -55px;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+.paginator__item {
+  display: inline-block;
+  border-radius: 20px;
+  outline: none;
+  position: relative;
+  padding: 1em 2em;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #878dfb;
+  letter-spacing: 0.1em;
+  border: none;
+}
+.paginator__item[aria-checked='true'] {
+  background: #1d227a;
+  color: #fff;
+}
+.paginator__scroll-arrow {
+  position: absolute;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: 900;
+  color: #fff;
+  user-select: none;
+  z-index: 2;
+}
+.paginator__scroll-arrow:hover {
+  color: #878dfb;
+}
+.paginator__scroll-arrow_left {
+  left: 0;
+}
+.paginator__scroll-arrow_right {
+  right: 0;
+}
+
+.content {
+  margin-top: 4em;
+}
+
+@media (max-width: 640px) {
+  .paginator {
+    max-width: 100%;
+    padding: 0 8px;
+  }
+}

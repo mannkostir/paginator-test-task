@@ -1,0 +1,77 @@
+{
+  "sections": [
+    "Popular",
+    "Not So Popular",
+    "Whatever",
+    "Good section",
+    "Bad section",
+    "Pretty section",
+    "Ugly section",
+    "For me",
+    "For everyone else",
+    "Placeholder section",
+    "Same as the previous one",
+    "Wat?",
+    "Is it the end?",
+    "Nah, not yet"
+  ],
+  "content": [
+    { "title": "Title", "text": "Some text", "section": "Popular", "id": "" },
+    { "title": "Title", "text": "Some text", "section": "Popular", "id": "" },
+    { "title": "Title", "text": "Some text", "section": "Popular", "id": "" },
+    {
+      "title": "Title",
+      "text": "Some text",
+      "section": "Not So Popular",
+      "id": ""
+    },
+    { "title": "Title", "text": "Some text", "section": "Whatever", "id": "" },
+    {
+      "title": "Title",
+      "text": "Some text",
+      "section": "Good section",
+      "id": ""
+    },
+    {
+      "title": "Title",
+      "text": "Some text",
+      "section": "Good section",
+      "id": ""
+    },
+    {
+      "title": "Title",
+      "text": "Some text",
+      "section": "Pretty section",
+      "id": ""
+    },
+    {
+      "title": "Title",
+      "text": "Some text",
+      "section": "Pretty section",
+      "id": ""
+    },
+    {
+      "title": "Title",
+      "text": "Some text",
+      "section": "Pretty section",
+      "id": ""
+    },
+    { "title": "Title", "text": "Some text", "section": "For me", "id": "" },
+    { "title": "Title", "text": "Some text", "section": "For me", "id": "" },
+    { "title": "Title", "text": "Some text", "section": "For me", "id": "" },
+    { "title": "Title", "text": "Some text", "section": "For me", "id": "" },
+    { "title": "Title", "text": "Some text", "section": "For me", "id": "" },
+    {
+      "title": "Title",
+      "text": "Some text",
+      "section": "Is it the end?",
+      "id": ""
+    },
+    {
+      "title": "Title",
+      "text": "Some text",
+      "section": "Nah, not yet",
+      "id": ""
+    }
+  ]
+}
